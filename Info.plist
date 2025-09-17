@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>ARKitVirtualPet</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+
+    <!-- Privacy keys -->
+    <key>NSCameraUsageDescription</key>
+    <string>Camera access is required for AR experience.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Microphone access is required for speech recognition.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Speech recognition is needed to accept voice commands for your pet.</string>
+
+    <!-- Optional: use ARKit scene reconstruction if desired -->
+    <key>ARKitSceneReconstruction</key>
+    <string>mesh</string>
+</dict>
+</plist>
