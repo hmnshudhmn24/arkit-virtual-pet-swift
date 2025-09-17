@@ -1,9 +1,9 @@
-# 🐶 ARKit Virtual Pet — gen-ai
+# 🐶 ARKit Virtual Pet
 
 Bring a virtual pet into your room! 🐾
 This sample app demonstrates an **ARKit + RealityKit** experience where you place a pet (dog, cat, dragon), interact via taps, feed it, throw a ball to play fetch, and control it with voice commands.
 
----
+
 
 ## Features
 
@@ -14,7 +14,7 @@ This sample app demonstrates an **ARKit + RealityKit** experience where you plac
 - 🎨 Customizable pets via USDZ models (dog/cat/dragon) — programmatic fallbacks included.
 - 🧩 SwiftUI frontend with RealityKit AR view.
 
----
+
 
 ## Tech Stack
 
@@ -24,7 +24,7 @@ This sample app demonstrates an **ARKit + RealityKit** experience where you plac
 - Xcode 14 / 15 recommended
 - iOS 16+ (iOS 17 recommended for best RealityKit improvements)
 
----
+
 
 ## Getting started
 
@@ -56,7 +56,7 @@ This sample app demonstrates an **ARKit + RealityKit** experience where you plac
 
 5. **Run on a real device** (AR requires a device with ARKit support).
 
----
+
 
 ## UX / How to use
 
@@ -70,7 +70,7 @@ This sample app demonstrates an **ARKit + RealityKit** experience where you plac
   - **Fetch** → triggers fetch mini-game.
 - Change pet type with the segmented control (Dog / Cat / Dragon).
 
----
+
 
 ## Extending the project (ideas)
 
@@ -80,7 +80,7 @@ This sample app demonstrates an **ARKit + RealityKit** experience where you plac
 - ✅ Add AR recording & sharing so users can export short videos/gifs of their pet.
 - ✅ Use on-device ML (CoreML) to predict pet moods or recommend actions.
 
----
+
 
 ## Troubleshooting
 
@@ -88,8 +88,3 @@ This sample app demonstrates an **ARKit + RealityKit** experience where you plac
 - **Speech not working**: Check microphone permission and speech recognition authorization.
 - **No USDZ models visible**: Confirm `.usdz` files are in the app bundle — otherwise fallback sphere will show.
 
----
-
-## License
-
-MIT © 2025 — Have fun and be kind to your digital pets! 🐾
